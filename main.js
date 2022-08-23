@@ -61,11 +61,11 @@ class TMitt {
 
 const mitt = new TMitt()
 
-let btn = document.querySelector('button')
+// const btn = document.querySelector('button')
 
-btn.addEventListener('click', () => {
-  mitt.emit('foo', 'abc', 123, {})
-})
+// btn.addEventListener('click', () => {
+//   mitt.emit('foo', 'abc', 123, {})
+// })
 
 function foo(...args) {
   console.log('a监听到了', ...args)
